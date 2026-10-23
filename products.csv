@@ -1,0 +1,80 @@
+product_id,product_name,category,is_chronic,requires_prescription,is_generic,mrp,selling_price
+101,Metformin 500mg Tablet (Strip of 15),Diabetes,1,1,1,45.00,20.25
+102,Metformin 1000mg SR Tablet (Strip of 15),Diabetes,1,1,1,98.00,44.10
+103,Glimepiride 1mg Tablet (Strip of 15),Diabetes,1,1,0,125.00,106.25
+104,Glimepiride 2mg Tablet (Strip of 15),Diabetes,1,1,1,160.00,64.00
+105,Glimepiride + Metformin 2mg/500mg Tablet (Strip of 15),Diabetes,1,1,0,210.00,172.20
+106,Sitagliptin 100mg Tablet (Strip of 15),Diabetes,1,1,1,420.00,147.00
+107,Vildagliptin 50mg Tablet (Strip of 15),Diabetes,1,1,0,360.00,306.00
+108,Teneligliptin 20mg Tablet (Strip of 15),Diabetes,1,1,1,180.00,72.00
+109,Dapagliflozin 10mg Tablet (Strip of 10),Diabetes,1,1,1,390.00,136.50
+110,Empagliflozin 25mg Tablet (Strip of 10),Diabetes,1,1,0,560.00,492.80
+111,Voglibose 0.3mg Tablet (Strip of 15),Diabetes,1,1,1,210.00,94.50
+112,Insulin Glargine 100IU/ml Pen (3ml),Diabetes,1,1,0,780.00,702.00
+113,Amlodipine 5mg Tablet (Strip of 15),Cardiac,1,1,1,45.00,20.25
+114,Telmisartan 40mg Tablet (Strip of 15),Cardiac,1,1,1,120.00,48.00
+115,Telmisartan + Amlodipine 40/5mg Tablet (Strip of 15),Cardiac,1,1,0,190.00,161.50
+116,Losartan 50mg Tablet (Strip of 15),Cardiac,1,1,1,90.00,40.50
+117,Atorvastatin 10mg Tablet (Strip of 15),Cardiac,1,1,1,110.00,44.00
+118,Atorvastatin 20mg Tablet (Strip of 15),Cardiac,1,1,0,230.00,195.50
+119,Rosuvastatin 10mg Tablet (Strip of 15),Cardiac,1,1,1,250.00,87.50
+120,Metoprolol Succinate 50mg ER Tablet (Strip of 15),Cardiac,1,1,0,150.00,132.00
+121,Clopidogrel 75mg Tablet (Strip of 15),Cardiac,1,1,1,130.00,52.00
+122,Aspirin 75mg Gastro-resistant Tablet (Strip of 14),Cardiac,1,1,0,10.00,9.00
+123,Olmesartan 20mg Tablet (Strip of 15),Cardiac,1,1,1,160.00,64.00
+124,Levothyroxine 25mcg Tablet (Bottle of 100),Thyroid,1,1,0,130.00,114.40
+125,Levothyroxine 50mcg Tablet (Bottle of 100),Thyroid,1,1,0,170.00,149.60
+126,Levothyroxine 75mcg Tablet (Bottle of 100),Thyroid,1,1,1,200.00,110.00
+127,Levothyroxine 100mcg Tablet (Bottle of 100),Thyroid,1,1,1,230.00,126.50
+128,Paracetamol 650mg Tablet (Strip of 15),Pain Relief,0,0,0,34.00,30.60
+129,Paracetamol 500mg Tablet (Strip of 15),Pain Relief,0,0,1,20.00,12.00
+130,Ibuprofen 400mg Tablet (Strip of 15),Pain Relief,0,0,1,30.00,18.00
+131,Aceclofenac + Paracetamol Tablet (Strip of 10),Pain Relief,0,1,0,120.00,102.00
+132,Diclofenac Gel (30g),Pain Relief,0,0,0,150.00,135.00
+133,Pain Relief Spray (55g),Pain Relief,0,0,0,245.00,215.60
+134,Azithromycin 500mg Tablet (Strip of 3),Antibiotics,0,1,1,120.00,60.00
+135,Amoxicillin + Clavulanic Acid 625mg Tablet (Strip of 10),Antibiotics,0,1,0,220.00,187.00
+136,Cefixime 200mg Tablet (Strip of 10),Antibiotics,0,1,1,110.00,55.00
+137,Doxycycline 100mg Capsule (Strip of 10),Antibiotics,0,1,1,90.00,49.50
+138,Ciprofloxacin 500mg Tablet (Strip of 10),Antibiotics,0,1,1,70.00,38.50
+139,Nitrofurantoin 100mg Capsule (Strip of 10),Antibiotics,0,1,0,180.00,158.40
+140,Pantoprazole 40mg Tablet (Strip of 15),Gastro,1,1,1,150.00,60.00
+141,Rabeprazole 20mg Tablet (Strip of 15),Gastro,0,1,0,180.00,153.00
+142,Ondansetron 4mg Tablet (Strip of 10),Gastro,0,1,1,60.00,33.00
+143,ORS Orange Sachet 21g (Pack of 10),Gastro,0,0,0,220.00,198.00
+144,Antacid Mint Liquid (170ml),Gastro,0,0,0,125.00,112.50
+145,Isabgol Husk (100g),Gastro,0,0,0,160.00,144.00
+146,Probiotic Capsule (Strip of 10),Gastro,0,0,0,150.00,132.00
+147,Cetirizine 10mg Tablet (Strip of 10),Respiratory,0,0,1,22.00,13.20
+148,Levocetirizine 5mg Tablet (Strip of 10),Respiratory,0,1,1,70.00,35.00
+149,Montelukast + Levocetirizine Tablet (Strip of 10),Respiratory,0,1,0,190.00,161.50
+150,Cough Syrup (100ml),Respiratory,0,0,0,125.00,112.50
+151,Steam Inhalation Capsules (Strip of 10),Respiratory,0,0,0,55.00,49.50
+152,Salbutamol Inhaler (200 doses),Respiratory,1,1,0,160.00,144.00
+153,Budesonide + Formoterol Inhaler (120 doses),Respiratory,1,1,0,520.00,468.00
+154,Vitamin D3 60000 IU Capsule (Strip of 4),Vitamins,0,0,1,130.00,71.50
+155,Methylcobalamin 1500mcg Tablet (Strip of 10),Vitamins,0,0,0,230.00,195.50
+156,Multivitamin Tablet (Bottle of 30),Vitamins,0,0,0,420.00,336.00
+157,Calcium + Vitamin D3 Tablet (Strip of 15),Vitamins,0,0,1,130.00,71.50
+158,Omega-3 Fish Oil Capsule (Bottle of 60),Vitamins,0,0,0,699.00,729.00
+159,Iron + Folic Acid Tablet (Strip of 15),Vitamins,0,0,1,95.00,57.00
+160,Zinc + Vitamin C Tablet (Strip of 15),Vitamins,0,0,1,110.00,66.00
+161,Biotin Tablet (Bottle of 30),Vitamins,0,0,0,499.00,374.25
+162,Whey Protein Chocolate (1kg),Vitamins,0,0,0,2499.00,1999.20
+163,Sunscreen SPF 50 Gel (50g),Skin Care,0,0,0,450.00,382.50
+164,Moisturising Lotion (200ml),Skin Care,0,0,0,399.00,339.15
+165,Ketoconazole 2% Anti-Dandruff Shampoo (100ml),Skin Care,0,0,0,260.00,228.80
+166,Clotrimazole 1% Cream (15g),Skin Care,0,0,1,60.00,36.00
+167,Adapalene 0.1% Gel (15g),Skin Care,0,1,0,280.00,246.40
+168,Calamine Lotion (100ml),Skin Care,0,0,0,110.00,99.00
+169,Salicylic Acid Face Wash (100ml),Skin Care,0,0,0,349.00,296.65
+170,Glucometer Kit with 10 Strips,Devices,0,0,0,1499.00,1049.30
+171,Glucometer Test Strips (Pack of 50),Devices,1,0,0,1150.00,862.50
+172,Lancets (Pack of 100),Devices,1,0,0,350.00,245.00
+173,Digital BP Monitor,Devices,0,0,0,2499.00,1624.35
+174,Digital Thermometer,Devices,0,0,0,350.00,245.00
+175,Pulse Oximeter,Devices,0,0,0,1999.00,999.50
+176,N95 Mask (Pack of 5),Devices,0,0,1,250.00,150.00
+177,Hand Sanitizer (500ml),Devices,0,0,0,250.00,200.00
+178,Nebulizer Machine,Devices,0,0,0,2999.00,2099.30
+179,Hot Water Bag (2L),Devices,0,0,0,399.00,319.20
