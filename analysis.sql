@@ -19,7 +19,7 @@ Part 1 — Get the basic picture:
 
 • How many orders are in each order status?
 
-	SELECT order_status, count(order_id) as orderCount FROM `orders` group by order_status ORDER by orderCount desc;
+	SELECT o.order_status, ROUND(COUNT(o.order_id) * 100.0 / t.total_orders, 2) AS order_percentage, COUNT(o.order_id) AS orderCount FROM `orders` o CROSS JOIN ( SELECT COUNT(*) AS total_orders FROM `orders` ) t GROUP BY o.order_status, t.total_orders ORDER BY orderCount DESC;
 
 	SELECT sum(total_amount) as total_order_amount, avg(total_amount) as avg_total_order_amount FROM `orders`;
 
@@ -29,7 +29,7 @@ Part 1 — Get the basic picture:
 
 • Which acquisition channels have brought the most customers?
 
-	SELECT cust.acquisition_channel, sum(ord.total_amount) as ord_total_amount FROM orders ord inner join customers cust on ord.customer_id=cust.customer_id where cust.acquisition_channel!='' GROUP BY cust.acquisition_channel ORDER BY ord_total_amount DESC;
+	SELECT cust.acquisition_channel, COUNT(cust.customer_id) AS total_customers FROM customers cust GROUP BY cust.acquisition_channel order by COUNT(cust.customer_id) DESC;
 
 Part 2 — What are customers buying?:
 
